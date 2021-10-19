@@ -1,0 +1,25 @@
+import requests
+import prettytable
+from bs4 import BeautifulSoup
+
+t1=prettytable.PrettyTable(['地區','氣溫'],encoding='utf8')
+
+r1=requests.get(
+    'https://www.cwb.gov.tw/V8/C/W/TemperatureTop/County_TMax_T.html',
+    params={
+        'ID':'Wed Oct 13 2021 13:29:12 GMT'
+    }
+)
+# print(r1.text)
+b1=BeautifulSoup(r1.text,'html.parser')
+# print(b1.text)
+
+for b2 in b1.find_all('tr'):
+  b2a=b2.find('th',{'scope':'row'}).text
+  b2b=b2.find('span',{'class':'tem-C is-active'}).text
+
+  t1.add_row(
+      [b2a,b2b]
+)
+  
+print(t1)

@@ -1,0 +1,23 @@
+import requests,json
+import prettytable
+
+while True:
+  t1 = prettytable.PrettyTable(['您查詢的商品結果如下:'], encoding='utf8')
+  t1.align['您查詢的商品結果如下:']='l'
+  k = input('關鍵字: ')
+  p = input('請輸入頁碼: ')
+  if int(p)<=0:
+    break
+  r1=requests.get(
+      'https://ecshweb.pchome.com.tw/search/v3.3/all/results',
+      params={
+          'q':k,
+          'page':p,
+          'sort':'sale/dc'
+      }
+  )
+  # print(r1.text)
+  d = json.loads(r1.text)
+  for a in d['prods']:
+    t1.add_row([a['name']])
+  print(t1)

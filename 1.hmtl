@@ -1,0 +1,1489 @@
+<!doctype html><!--[if IE]><html lang="zh" class="ie"><![endif]--><!--[if !IE]><!-->
+<html lang="zh-hant"><!--<![endif]-->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Cache-Control" content="no-cache">
+
+  <title>融資融券餘額TWSE 臺灣證券交易所</title>
+    
+  <link rel="shortcut icon" href="/rsrc/img/favicon.ico">
+  <link rel="apple-touch-icon" href="/rsrc/img/apple-touch-icon.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/rsrc/img/apple-touch-icon-retina.png">
+    
+  <meta name="description" content="臺灣證券交易所全球資訊網介紹公司組織、沿革外，並分為「交易資訊」、「上市公司」、 「產品與服務」、「結算服務」、「市場公告」、「法令規章」、「投資人教育」、「統計報表」等，期能提供投資大眾即時完整之訊息，使投資大眾對本公司業務及市場動態有更深一層的瞭解。">
+  <meta name="keywords" content="證券,上市,大盤,國際股市指數,匯率,個股行情等,年報,投資,期貨,台灣50,ETF">
+  
+  <meta name="author" content="TWSE">
+  <!--[if lt IE 10]><script src="/rsrc/lib/html5shiv.min.js"></script><![endif]-->
+  <!--[if IE]><script src="/rsrc/lib/es5-shim.min.js"></script><![endif]-->
+  <meta name="Asset-Path" content="/rsrc/">
+  <link href="/rsrc/css/main.css" rel="stylesheet">
+  
+  
+  <meta name="layout" content="zhLayout"/>
+<link href="/rsrc/lib/table/jquery.dataTables.min.css" rel="stylesheet">
+<link href="/rsrc/css/report.css?d=0626" rel="stylesheet">
+<style>
+form.main {
+text-align: center;
+}
+table#report-table{
+table-layout: auto;
+}
+</style>
+
+
+</head>
+<body class="zh fullwidth">
+<!--[if lt IE 10 ]><div class="top-hints"><i></i><b>為了確保資訊安全，此網站已不支援IE10以前瀏覽器。</b><br>建議使用 <a href="http://www.google.com/chrome/">Chrome</a>、<a href="http://mozilla.com.tw/firefox/">FireFox</a>、<a href="http://www.apple.com/tw/safari/">Safari</a> 或 <a href="https://www.microsoft.com/zh-tw/windows/microsoft-edge">Edge</a> 等先進瀏覽器。</div><![endif]-->
+<input type="radio" name="font-size" id="size-S">
+<input type="radio" name="font-size" id="size-M" checked>
+<input type="radio" name="font-size" id="size-L">
+<script>document.getElementById(localStorage.getItem('page-font-size') || 'size-M').checked = true;</script>
+<div id="layout">
+  <header id="header">
+    
+      
+    
+    <div class="wp">
+
+      <a href="/zh/" class="logo">台灣證券交易所</a>
+
+      <ul class="nav">
+        <li>字體大小 <label for="size-S">A</label><label for="size-M">A</label><label for="size-L">A</label></li>
+        <li><a href="//member.twse.com.tw/account/">會員專區</a></li>
+        <li><a href="/zh/page/report-index.html">報表索引</a></li>
+        <li><a href="/jp/">日本語ホームページ</a></li>
+        <li><a href="/en/">English Home</a></li>
+        <li><a class="search" href="/zh/page/search.html">搜尋</a></li>
+      </ul>
+
+      <ul class="site">
+        <li><a href="https://mops.twse.com.tw/mops/web/index" target="_blank">公開資訊觀測站</a></li>
+        <li><a href="https://mis.twse.com.tw/stock/index.jsp" target="_blank">基本市況報導</a></li>
+        <li class="pull-down"><a>TWSE 網站：國內業務宣導網站</a>
+          <div>
+            <i>△</i>
+            <ul>
+			<li><a href="https://dsp.twse.com.tw/" target="_blank">國內業務宣導網站</a></li>
+            <li><a href="https://cgc.twse.com.tw/" target="_blank">公司治理中心</a></li>
+            <li><a href="https://eshop.twse.com.tw/zh/" target="_blank">網路資訊商店</a></li>
+            <li><a href="https://webpro.twse.com.tw/" target="_blank">WebPro 3.0 影音傳播網</a></li>
+            <li><a href="/zh/page/products/trading/information13.html" target="_blank">盤中全面逐筆交易專區</a></li>
+			<li><a href="/CSR/zh/index.html" target="_blank">企業社會責任</a></li>
+            <li><a href="https://investoredu.twse.com.tw/Pages/TWSE.aspx" target="_blank">投資人知識網</a></li>
+            <li><a href="https://www.twse.com.tw/zh/page/products/colocationArea.html" target="_blank">Co-Location主機共置</a></li>
+            <li><a href="http://twse-regulation.twse.com.tw/" target="_blank">法規分享知識庫</a></li>
+            <li><a href="https://www.taiwanindex.com.tw/" target="_blank">臺灣指數公司</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+
+
+    </div>
+  </header>
+  <nav id="mega">
+    <ul>
+  <li>
+    <a>關於證交所</a>
+    <div>
+      <div class="links">
+        <section class="w53"><!-- 佔4/5 -->
+          <h3>公司介紹</h3>
+          <ul class="c5"><!-- 切5欄 -->
+        		<li><a href="/zh/page/about/company/welcome.html">首長歡迎詞</a></li>
+        		<li><a href="/zh/page/about/company/history.html">歷史介紹</a></li>
+        		<li><a href="/zh/page/about/company/service.html">服務介紹</a></li>
+        		<li><a href="/zh/page/about/company/organization.html">組織介紹</a></li>
+        		<li><a href="/zh/page/about/company/service-contact.html">服務窗口</a></li>
+        		<li><a href="//suggestionbox.twse.com.tw/swsfront35/SWSF/SWSF01014.aspx" target="_blank">聯絡我們</a></li>
+        		<li><a href="/zh/page/about/company/finance.html">財務報告書</a></li>
+        		<li><a href="/zh/page/about/company/official-document.html">股利分派</a></li>
+        		<li><a href="/zh/page/about/company/board.html">董監事名錄</a></li>
+        		<li><a href="/zh/page/about/company/twseVideo.html">影音介紹</a></li>
+        		<li><a href="/zh/page/about/company/annuals.html">年報</a></li>
+        		<li><a href="/zh/page/about/company/factbooks.html">Fact Book</a></li>
+        		<li><a href="/zh/page/about/company/iso.html">ISO認證</a></li>
+        		<li><a href="/zh/page/about/company/map.html">證交所地圖</a></li>
+        		<li><a href="/zh/page/about/company/guide.html">臺灣投資指南2020</a></li>
+      		</ul>
+    		</section>
+        <section class="w51"><!-- 佔1/5 -->
+          <h3>新聞資訊</h3>
+          <ul>
+        		<li><a href="/zh/news/newsList">證交所新聞</a></li>
+				<li><a href="/zh/news/eventList">活動訊息</a></li>
+				<li><a href="/zh/news/guestList">外賓參訪</a></li>
+      		</ul>
+    		</section>
+        <section class="w51"><!-- 佔1/5 -->
+    		  <h3><a href="/CSR/zh/index.html" target="_blank">企業社會責任</a></h3>
+    		  <h3><a href="/zh/page/about/suspended_faq.html">因應重大災變查詢證券相關業務問答</a></h3>
+    		</section>
+  		</div>
+  		<ul class="banners">
+    		<li><a href="/CSR/zh/index.html" target="_blank"><figure>
+  		    <img src="/rsrc/img/mega-menu/p1-1.png"><figcaption><h3>企業社會責任</h3></figcaption>
+    		</figure></a></li>
+    		<li><a href="/zh/page/about/company/service.html"><figure>
+          <img src="/rsrc/img/mega-menu/p1-2.png"><figcaption><h3>服務介紹</h3></figcaption>
+    		</figure></a></li>
+    		<li><a href="/zh/news/newsList"><figure>
+    		  <img src="/rsrc/img/mega-menu/p1-3.png"><figcaption><h3>證交所新聞</h3></figcaption>
+    		</figure></a></li>
+  		</ul>
+    </div>
+  </li>
+  <li>
+    <a>交易資訊</a>
+    <div>
+      <div class="row c5">
+        <h3>盤後資訊</h3>
+        <ul>
+      		<li><a href="/zh/page/trading/exchange/MI_INDEX.html" target="_blank">每日收盤行情</a></li>
+      		<li><a href="/zh/page/trading/exchange/FMTQIK.html">每日市場成交資訊</a></li>
+      		<li><a href="/zh/page/trading/exchange/STOCK_FIRST.html" target="_blank">每日第一上市外國股票成交量值</a></li>
+			<li><a href="/zh/page/trading/exchange/STOCK_TIB.html" target="_blank">每日創新板股票成交量值</a></li>
+      		<li><a href="/zh/page/trading/exchange/MI_INDEX20.html" target="_blank">每日成交量前二十名證券</a></li>
+      		<li><a href="/zh/page/trading/exchange/MI_5MINS.html" target="_blank">每5秒委託成交統計</a></li>
+      		<li><a href="/zh/page/trading/exchange/BFIAMU.html">各類指數日成交量值</a></li>
+      		<li><a href="/zh/page/trading/exchange/STOCK_DAY.html">個股日成交資訊</a></li>
+      		<li><a href="/zh/page/trading/exchange/TWTASU.html">當日融券賣出與借券賣出成交量值</a></li>
+      		<li><a href="/zh/page/trading/exchange/STOCK_DAY_AVG.html">個股日收盤價及月平均價</a></li>
+      		<li><a href="/zh/page/trading/exchange/FMSRFK.html">個股月成交資訊</a></li>
+      		<li><a href="/zh/page/trading/exchange/FMNPTK.html">個股年成交資訊</a></li>
+      		<li><a href="/zh/page/trading/exchange/BFT41U.html">盤後定價交易</a></li>
+			<li><a href="/zh/page/trading/exchange/TWTC7U.html" target="_blank">盤中零股交易行情單</a></li>
+			<li><a href="/zh/page/trading/exchange/TWT53U.html" target="_blank">盤後零股交易行情單</a></li>
+      		<li><a href="/zh/page/trading/exchange/BWIBBU_d.html">個股日本益比、殖利率及股價淨值比(依日期查詢)</a></li>
+      		<li><a href="/zh/page/trading/exchange/BWIBBU.html">個股日本益比、殖利率及股價淨值比(依代碼查詢)</a></li>
+      		<li><a href="/zh/page/trading/exchange/TWTAWU.html">暫停交易證券</a></li>
+    		</ul>
+			
+			  <div class="group">
+  		    <h3>升降幅度/首五日無漲跌幅</h3>
+          <ul>
+        		<li><a href="/zh/page/trading/exchange/TWT84U.html" target="_blank">股價升降幅度</a></li>
+        		<li><a href="/zh/page/trading/exchange/TWT88U.html" target="_blank">首五日無漲跌幅</a></li>
+    		  </ul>
+    		</div>
+		  
+		    <a href="/zh/page/trading/exchange/TWT85U.html"><h3>變更交易</h3></a>
+		
+		    <h3>當日沖銷交易標的</h3>
+        <ul>
+      		<li><a href="/zh/page/trading/exchange/TWTB4U.html" target="_blank">每日當日沖銷交易標的</a></li>
+      		<li><a href="/zh/page/trading/exchange/TWTB4U2.html" target="_blank">每月當日沖銷交易標的及統計 </a></li>
+      		<li><a href="/zh/page/trading/exchange/TWTBAU1.html">暫停先賣後買當日沖銷交易標的預告表</a></li>
+      		<li><a href="/zh/page/trading/exchange/TWTBAU2.html">暫停先賣後買當日沖銷交易歷史查詢</a></li>
+      		<li><a href="/zh/page/trading/exchange/BFIF8U.html">應付現股當日沖銷券差借券費率</a></li>	
+  		  </ul>
+
+        <h3>融資融券與可借券賣出額度</h3>
+        <ul>
+      		<li><a href="/zh/exchange/BFIB9U" target="_blank">調整成數</a></li>
+      		<li><a href="/zh/page/trading/exchange/MI_MARGN.html" target="_blank">融資融券餘額</a></li>
+      		<li><a href="/zh/page/trading/exchange/BFI84U.html">停券預告表</a></li>
+      		<li><a href="/zh/page/trading/exchange/BFI84U2.html">停券歷史查詢</a></li>
+      		<li><a href="/zh/page/trading/exchange/TWT92U.html">平盤下得融(借)券賣出之證券名單</a></li>
+      		<li><a href="/zh/page/trading/exchange/TWT93U.html" target="_blank">融券借券賣出餘額</a></li>
+      		<li><a href="/zh/page/trading/SBL/TWT96U.html">當日可借券賣出股數</a></li>
+      		<li><a href="/zh/page/trading/exchange/TWTA1U.html" target="_blank">借貸款項擔保品管制餘額</a></li>
+  		  </ul>
+
+		    <a href="/zh/page/trading/exchange/BFIB8U.html" target="_blank"><h3>標借</h3></a>
+		
+		    <h3>三大法人</h3>
+        <ul>
+      		<li><a href="/zh/page/trading/fund/BFI82U.html">三大法人買賣金額統計表</a></li>
+      		<li><a href="/zh/page/trading/fund/T86.html" target="_blank">三大法人買賣超日報</a></li>
+      		<li><a href="/zh/page/trading/fund/TWT54U.html" target="_blank">三大法人買賣超週報</a></li>
+      		<li><a href="/zh/page/trading/fund/TWT47U.html" target="_blank">三大法人買賣超月報</a></li>
+      		<li><a href="/zh/page/trading/fund/TWT43U.html" target="_blank">自營商買賣超彙總表</a></li>
+      		<li><a href="/zh/page/trading/fund/TWT44U.html">投信買賣超彙總表</a></li>
+      		<li><a href="/zh/page/trading/fund/TWT38U.html" target="_blank">外資及陸資買賣超彙總表</a></li>
+      		<li><a href="/zh/page/trading/fund/MI_QFIIS.html" target="_blank">外資及陸資投資持股統計</a></li>
+      		<li><a href="/zh/page/trading/fund/MI_QFIIS_sort_20.html" target="_blank">外資及陸資持股前20名彙總表</a></li>
+      		<li><a href="/zh/page/trading/fund/MI_QFIIS_cat.html">外資及陸資投資類股持股比率表</a></li>
+      		<li><a href="/zh/page/trading/fund/FMGDRK.html">國內上市公司發行海外存託憑證彙總表</a></li>
+    		</ul>
+			
+			  <div class="group">
+  		    <h3>中央登錄公債</h3>
+          <ul>
+        		<li><a href="/zh/page/trading/exchange/BFI61U.html">中央登錄公債補息資料表</a></li>
+        		<li><a href="/zh/margin/ABP010" target="_blank">中央登錄公債行情單</a></li>
+    		  </ul>
+    		</div>
+
+        <h3>鉅額交易</h3>
+        <ul>
+      		<li><a href="/zh/page/trading/block/BFIAUU.html">鉅額交易日成交資訊</a></li>
+      		<li><a href="/zh/page/trading/block/BFIAUU_sd.html">個股單一證券鉅額交易日成交資訊</a></li>
+      		<li><a href="/zh/page/trading/block/BFIAUU_d.html">鉅額交易日成交量值統計</a></li>
+      		<li><a href="/zh/page/trading/block/BFIAUU_m.html">鉅額交易月成交量值統計</a></li>
+      		<li><a href="/zh/page/trading/block/BFIAUU_y.html">鉅額交易年成交量值統計</a></li>
+  		  </ul>
+
+        <h3>統計報表</h3>
+        <ul>
+      		<li><a href="/zh/statistics/statisticsWeek">市值週報</a></li>
+      		<li><a href="/zh/statistics/index/01" class="more">股價指數月報</a></li>
+      		<li><a href="/zh/statistics/index/02" class="more">市場交易月報</a></li>
+      		<li><a href="/zh/statistics/index/03" class="more">證券商月報</a></li>
+      		<li><a href="/zh/statistics/index/04"class="more">上市公司月報</a></li>
+      		<li><a href="/zh/statistics/index/05">上市公司季報</a></li>
+      		<li><a href="/zh/statistics/index/06" class="more">國際主要股市月報</a></li>
+      		<li><a href="/zh/statistics/index/07" class="more">證券統計資料年報</a></li>
+  		  </ul>
+
+        <a href="/zh/holidaySchedule/holidaySchedule"><h3>市場開休市日期</h3></a>      	
+
+      </div>
+    </div>
+  </li>
+  <li>
+    <a>指數資訊</a>
+    <div>
+      <div class="row c5">
+
+          <h3>本公司股價指數與授權</h3>
+          <ul>
+            <li><a href="/zh/page/products/indices/series.html">指數系列</a></li>
+            <li><a href="/zh/page/products/indices/auth.html">指數授權</a></li>
+          </ul>
+
+          <h3>臺灣跨市場指數</h3>
+          <ul>
+            <li><a href="/zh/page/trading/indices/FRMSA.html">寶島股價指數歷史資料</a></li>
+            <li><a href="/zh/page/trading/exchange/MI_INDEX4.html">每日上市上櫃跨市場成交資訊</a></li>
+          </ul>
+
+          <h3>與銳聯合作編製指數</h3>
+          <ul>
+            <li><a href="/zh/page/trading/indices/EMP99.html">臺灣就業99指數歷史資料</a></li>
+            <li><a href="/zh/page/trading/indices/HC100.html">臺灣高薪100指數歷史資料</a></li>
+          </ul>
+
+          <h3>TWSE自行編製指數</h3>
+          <ul>
+            <li><a href="/zh/page/trading/exchange/MI_5MINS_INDEX.html" target="_blank">每5秒指數盤後統計</a></li>
+            <li><a href="/zh/page/trading/indices/MFI94U.html">發行量加權股價報酬指數</a></li>
+            <li><a href="/zh/page/trading/indices/TTDR.html">臺指槓桿及反向指數歷史資料 </a></li>
+            <li><a href="/zh/page/trading/indices/MI_5MINS_HIST.html">發行量加權股價指數歷史資料</a></li>
+            <li><a href="/zh/page/trading/indices/TWT91U.html">未含金融電子股指數歷史資料</a></li>
+            <li><a href="/zh/page/trading/indices/SC300.html">小型股300指數歷史資料 </a></li>
+            <li><a href="/zh/page/trading/indices/EFTRI_HIST.html" target="_blank">電子類指數及金融保險類指數</a></li>
+            <li><a href="/zh/page/trading/indices/EFTRI.html" target="_blank">電子類報酬指數及金融保險類報酬指數</a></li>
+            <li><a href="/zh/page/trading/indices/CG100.html">臺灣公司治理100指數歷史資料</a></li>
+          </ul>
+
+          <h3>與FTSE合作編製指數</h3>
+          <ul>
+            <li><a href="/zh/page/trading/indices/TAI50I.html">臺灣50指數歷史資料</a></li>
+            <li><a href="/zh/page/trading/indices/BFM44U.html">臺灣50指數月平均價差</a></li>
+            <li><a href="/zh/page/trading/indices/TAI100I.html">臺灣中型100指數歷史資料</a></li>
+            <li><a href="/zh/page/trading/indices/BFM44U_TWMC.html">臺灣中型100指數月平均價差</a></li>
+            <li><a href="/zh/page/trading/indices/TAIINTI.html">臺灣資訊科技指數歷史資料</a></li>
+            <li><a href="/zh/page/trading/indices/BFM44U_TWIT.html">臺灣資訊科技指數月平均價差</a></li>
+            <li><a href="/zh/page/trading/indices/TAIEI.html">臺灣發達指數歷史資料</a></li>
+            <li><a href="/zh/page/trading/indices/BFM44U_TWEI.html">臺灣發達指數月平均價差</a></li>
+            <li><a href="/zh/page/trading/indices/TAIDIVIDI.html">臺灣高股息指數歷史資料</a></li>
+            <li><a href="/zh/page/trading/indices/BFM44U_TWDP.html">臺灣高股息指數月平均價差</a></li>
+          </ul>
+
+      </div>
+	    <ul class="banners">
+    		<li><a href="/zh/page/products/indices/series.html"><figure>
+  		    <img src="/rsrc/img/mega-menu/p3-1.png"><figcaption><h3> 本公司股價指數與授權</h3></figcaption>
+    		</figure></a></li>
+    		<li><a href="/zh/page/trading/indices/TAI50I.html"><figure>
+          <img src="/rsrc/img/mega-menu/p3-2.png"><figcaption><h3>臺灣50指數</h3></figcaption>
+    		</figure></a></li>
+    		<li><a href="/zh/page/trading/indices/CG100.html"><figure>
+    		  <img src="/rsrc/img/mega-menu/p3-3.png"><figcaption><h3> 臺灣公司治理100指數</h3></figcaption>
+    		</figure></a></li>
+  		</ul>
+
+    </div>
+  </li> 
+  <li>
+    <a>上市公司</a>
+    <div>
+      <div class="row c5">
+
+      	<a href="/zh/listed/listingProfile"><h3>上市公司整合資訊</h3></a>
+
+      	<a href="/zh/listed/listingProfileInquiry"><h3>上市公司條件選股</h3></a>
+        
+        <h3>上市辦法</h3>
+        <ul>
+        	<li><a href="/zh/page/listed/process/standars.html">國內公司申請標準</a></li>
+        	<li><a href="/zh/page/listed/process/flow.html">國內公司申請流程</a></li>
+      	</ul>
+
+        <div>
+        	<h3>上市公司</h3>
+          <ul>
+        		<li><a href="/zh/page/listed/listed_company/new_listing.html" target="_blank">最近上市公司</a></li>
+        		<li><a href="/zh/company/applylisting" target="_blank">申請上市公司</a></li>
+        		<li><a href="/zh/company/ipoSeo" target="_blank">向本公司申請辦理首次公開發行及初次上市前現金增資案件彙總表</a></li>
+				<li><a href="/zh/company/sharesChange" target="_blank">向本公司申請辦理合併發行新股、受讓他公司股份發行新股、依法律規定進行收購或分割發行新股、私募有價證券補辦公開發行及減少資本案件彙總表</a></li>
+        		<li><a href="/zh/company/applylistingTdr" target="_blank">向本公司申請發行臺灣存託憑證公司</a></li>
+        		<li><a href="https://mops.twse.com.tw/mops/web/t68sb01_q1" target="_blank">輔導中公司</a></li>
+          </ul>
+        </div>
+		
+		    <h3>上市公司違規及交易面異常資訊</h3>
+      	<ul>
+      		<li><a href="/zh/violation/change">變更交易</a></li>
+      		<li><a href="/zh/violation/stop">停止買賣</a></li>
+        </ul>
+      	
+
+        
+      	<h3>外國企業來臺上市</h3>
+      	<ul>
+			    <li><a href="/zh/page/listed/alien-business/welcome.html">前言</a></li>
+      		<li><a href="/zh/page/listed/alien-business/manual.html">宣導手冊</a></li>
+      		<li><a href="/zh/page/listed/alien-business/flow.html">上市申請流程</a></li>
+      		<li><a href="/zh/page/listed/alien-business/qanda.html">外國企業來臺上市常見問題與說明</a></li>
+      		<li><a href="/zh/page/listed/alien-business/plan.html">歷次宣導及參考資料</a></li>
+      		<li><a href="/zh/page/listed/alien-business/links.html">其它相關網站</a></li>
+        </ul>
+		
+		<h3>臺灣創新板(TIB)</h3>
+      	<ul> 
+			<li><a href="/zh/page/products/tib/preface.html">前言</a></li>
+			<li>
+			      <b>上市制度</b>
+  				  <ul>
+      			  <li><a href="/zh/page/products/tib/requirement.html">上市條件</a></li>
+				  <li><a href="/zh/page/products/tib/process.html">上市申請流程</a></li>
+  			    </ul>
+			</li>
+			<li><a href="/zh/page/products/tib/mechanism.html">交易制度</a></li>
+			<li>
+			      <b>宣導及參考資料</b>
+  				  <ul>
+      			  <li><a href="/zh/page/products/tib/manual.html">宣導活動與文宣</a></li>
+				  <li><a target="_blank"href="/downloads/zh/products/shortversion-zh.pdf">懶人包</a></li>
+				  <li><a href="/zh/page/products/tib/news.html">新聞稿</a></li>
+				  <li><a href="/zh/page/products/tib/announcement.html">規章公告</a></li>
+  			    </ul>
+			</li>
+      		<li><a href="/downloads/zh/products/tib_qa.pdf">常見問題與說明</a></li>
+        </ul>
+
+
+        <a href="/zh/company/suspendListing"><h3>終止上市公司</h3></a>        
+        <a href="/zh/page/listed/IFRS.html"><h3 class="more">國際財務報導準則(IFRS)</h3></a>
+        <a href="/zh/page/listed/XBRL.html"><h3 class="more">財務報導語言(XBRL)</h3></a>
+		
+      </div>
+	  
+	    <ul class="banners">
+    		<li><a href="/zh/listed/listingProfile"><figure>
+  		    <img src="/rsrc/img/mega-menu/p4-1.png"><figcaption><h3> 上市公司整合資訊</h3></figcaption>
+    		</figure></a></li>
+    		<li><a href="/zh/page/listed/process/standars.html"><figure>
+          <img src="/rsrc/img/mega-menu/p4-2.png"><figcaption><h3>國內公司申請上市標準</h3></figcaption>
+    		</figure></a></li>
+    		<li><a href="/zh/page/products/tib/preface.html"><figure>
+    		  <img src="/rsrc/img/mega-menu/p4-3.jpg"><figcaption><h3>臺灣創新板(TIB)專區</h3></figcaption>
+    		</figure></a></li>
+  		</ul>
+	  
+    </div>
+  </li>
+  <li>
+    <a>產品與服務</a>
+    <div>
+      <div class="row c5">
+      	<h3>上市證券種類</h3>
+      	<ul>
+      		<li><a href="/zh/page/products/securities/stocks.html">股票</a></li>
+      		<li><a href="/zh/page/products/securities/dr.html">臺灣存託憑證</a></li>
+      		<li><a href="/zh/page/products/securities/warrant/profile.html" target="_blank" class="more">認購(售)權證</a></li>
+      		<li><a href="/zh/page/products/securities/bond.html">債券</a></li>
+      		<li><a href="/zh/page/products/securities/certificate.html">受益憑證</a></li>
+      		<li><a href="/zh/ETF/news" class="more">ETF</a></li>
+      		<li><a href="/zh/page/products/securities/security.html">受益證券</a></li>
+      		<li><a href="/zh/page/ETN/summary.html" class="more">ETN</a></li>
+        </ul>
+
+      	<h3>有價證券借貸</h3>
+      	<ul>
+      		<li><a href="/zh/page/products/sbl/edu.html">有價證券借貸制度介紹</a></li>
+      		<li><a href="/zh/page/products/sbl/sbl_info.html" class="more">借券資訊</a></li>
+      		<li><a href="/zh/page/products/sbl/law.html">法規、公告、函令</a></li>
+      		<li><a href="/zh/page/products/sbl/form.html">各項契約及表格</a></li>
+      		<li><a href="/zh/page/products/sbl/news.html">有價證券借貸里程碑與新聞</a></li>
+      		<li><a href="/zh/page/products/sbl/faq.html">問答集</a></li>
+        </ul>
+
+      	<h3>證券編碼</h3>
+        <ul>		
+      		<li><a href="/zh/page/products/stock-code1.html">證券編碼查詢</a></li>
+      		<li><a href="/zh/page/products/stock-code2.html">證券編碼公告</a></li>
+        </ul>
+      	
+        <a href="/zh/page/products/lei.html"><h3>法人機構識別碼LEI</h3></a>
+      	
+      	<h3>證券商服務</h3>
+      	<ul>
+      		<li><a href="/zh/brokerService/brokerServiceAudit">證券商資訊</a></li>
+			<li><a href="/zh/brokerService/secRegData">證券商辦理定期定額業務資料</a></li>
+			<li><a href="/zh/page/ETF/rank.html">定期定額交易戶數統計排行月報表</a></li>
+      		<li><a href="/zh/page/products/broker/sbl/broker.html">證券商辦理有價證券借貸</a></li>
+      		<li><a href="/zh/page/products/broker/sbl/law.html">證券業務借貸款項及不限用途款項借貸</a></li>
+        </ul>
+      	
+      	<h3>投資人教育</h3>
+      	<ul>
+      		<li><a href="https://investoredu.twse.com.tw/Pages/TWSE.aspx" target="_blank">投資人知識網</a></li>
+      		<li><a href="/zh/page/investor/foreign/01.html" class="more">僑外投資</a></li>
+      		<li><a href="/zh/page/investor/edu/index.html">防制內線交易</a></li>
+			<li><a href="https://www.twse.com.tw/IFRS/learningInvest" target="_blank">IFRS專題報導</a></li>
+        </ul>
+
+
+      	<h3>查詢個人資料服務</h3>
+      	<ul>
+      		<li><a href="https://investor.twse.com.tw/" target="_blank">投資人個人資料查詢系統</a></li>
+      		<li><a href="/zh/page/products/InvDataQuery.html">投資人查詢/查詢被繼承人在證券集中交易市場帳戶或交易資料作業程序</a></li>
+      		<li><a href="/zh/page/products/InvDataQuery2.html">證券投資信託/顧問事業員工暨其配偶及未成年子女委託查詢證券開戶及交易資料作業程序</a></li>
+        </ul>	
+        
+        <div class="group">
+          <h3>資訊服務</h3>
+          <ul>
+            <li><a href="/zh/page/products/info-vendor/intro.html">資訊服務</a></li>
+        		<li><a href="/zh/page/products/info-vendor/press.html">即時交易資訊</a></li>
+        		<li><a href="/zh/page/products/info-vendor/index.html">即時股價指數資訊</a></li>
+        		<li><a href="/zh/page/products/info-vendor/delay.html">延遲交易資訊</a></li>
+        		<li><a href="/zh/page/products/info-vendor/history.html">盤後資訊與歷史交易資料</a></li>
+        		<li><a href="/zh/page/products/info-vendor/use.html">交易資訊使用管理辦法、契約、收費標準</a></li>
+        		<li><a href="/zh/products/vendors">簽約資訊公司名冊</a></li>
+        		<li><a href="/zh/page/products/info-vendor/faq.html">問答集</a></li>
+        	</ul>
+		    </div>
+
+
+
+		    <h3>交易系統</h3>
+		    <ul>
+			    <li><a href="/zh/page/products/trading/introduce.html">一般交易</a></li>
+      		<li><a href="/zh/page/products/trading/introduce.html#02">權證逐筆交易</a></li>
+			    <li><a href="/zh/page/products/trading/introduce.html#03">盤後定價交易</a></li>
+			<li><a href="/zh/page/products/trading/introduce.html#04">盤中零股交易</a></li>
+      		<li><a href="/zh/page/products/trading/introduce.html#05">盤後零股交易</a></li>
+      		<li><a href="/zh/page/products/trading/introduce.html#06">鉅額交易</a></li>
+      		<li><a href="/zh/page/products/trading/introduce.html#07">拍賣</a></li>
+      		<li><a href="/zh/page/products/trading/introduce.html#08">標購</a></li>
+			    <li><a href="/zh/page/products/trading/introduce.html#09">中央登錄公債及外國債券</a></li>
+      		<li><a href="/zh/page/products/trading/introduce.html#10">綜合交易帳戶</a></li>
+			    <li><a href="/zh/page/products/trading/introduce.html#11">有價證券暫停及恢復交易</a></li>
+      		<li><a href="/zh/page/products/trading/introduce.html#12">交易方式彙總</a></li>
+			    <li><a href="/zh/page/products/trading/information5.html">當日沖銷交易專區</a></li>
+			    <li><a href="/zh/page/products/trading/intrBFIFYU.html">定期定額投資</a></li>
+			    <li>
+			      <b>雙幣ETF交易專區</b>
+  				  <ul>
+      			  <li><a href="/zh/page/products/trading/introduce12.html">雙幣ETF交易機制介紹</a></li>
+              <li><a href="/zh/exchange/TWTBDU">代號對應及每日公告匯率</a></li>
+  			    </ul>
+			    </li>
+			    <li><a href="/zh/page/products/trading/information13.html">逐筆交易制度介紹</a></li>
+				<li><a href="/zh/page/products/trading/introduce14.html">盤中零股交易專區</a></li>
+				<li><a href="/zh/page/products/trading/introduce15.html">股票造市制度專區</a></li>
+      	</ul>
+		
+		
+
+      	<a href="/zh/page/products/dataeshop.html"><h3>網路資訊商店</h3></a>
+      	
+
+      	<a href="/zh/page/products/colocationArea.html"><h3>Co-Location主機共置</h3></a>
+
+      	<h3>出版品</h3>
+      	<ul>
+      		<li><a href="/zh/products/essay">證券服務</a></li>
+      		<li><a href="/zh/products/publication">證券市場發展動態</a></li>
+      		<li><a href="/zh/products/report">研究報告</a></li>
+      		<li><a href="/zh/products/etc">其他出版品</a></li>
+      		<li><a href="/zh/products/monthNewsletter">證券市場月訊</a></li>
+          <li class="empty"></li><li class="empty"></li><li class="empty"></li><li class="empty"></li><li class="empty"></li><li class="empty"></li><li class="empty"></li>
+        </ul>
+
+      
+      </div>
+	  <!--
+      <ul class="banners">
+    		<li><a href="/zh/ETF/news"><figure>
+  		    <img src="/rsrc/img/mega-menu/p5-1.png"><figcaption><h3>ETF</h3></figcaption>
+    		</figure></a></li>
+    		<li><a href="/zh/brokerService/brokerServiceAudit"><figure>
+          <img src="/rsrc/img/mega-menu/p5-2.png"><figcaption><h3>證券商資訊</h3></figcaption>
+    		</figure></a></li>
+    		<li><a href="/zh/page/products/dataeshop.html"><figure>
+    		  <img src="/rsrc/img/mega-menu/p5-3.png"><figcaption><h3> 網路資訊商店</h3></figcaption>
+    		</figure></a></li>
+  		</ul>-->
+	  
+    </div>
+  </li>
+  <li>
+    <a>結算服務</a>
+    <div>
+      <div class="row c5">
+        <a href="/zh/page/clearing/rules.html"><h3>結算交割之法源</h3></a>
+        <a href="/zh/page/clearing/scope.html"><h3>結算標的</h3></a>
+        <h3>結算制度</h3>
+        <ul>
+        	<li><a href="/zh/page/clearing/characteristics.html">結算交割作業特色</a></li>
+        	<li><a href="/zh/page/clearing/operations.html">款券交割作業</a></li>
+        </ul>
+        <a href="/zh/page/clearing/borrowing_system.html"><h3>交割借券制度</h3></a>
+        <a href="/zh/page/clearing/punishment.html"><h3>逾時交割之處理</h3></a>
+        <a href="/zh/page/clearing/procedure.html"><h3>違背交割義務之處理</h3></a>
+
+        <a href="/zh/page/clearing/suspended.html"><h3>天然災害停止上班之處理</h3></a>
+
+        <h3>財務安全防衛機制</h3>
+        <ul>
+        	<li><a href="/zh/page/clearing/compensation.html">賠償準備金</a></li>
+        	<li><a href="/zh/page/clearing/joint.html">共同責任制交割結算基金</a></li>
+        	<li><a href="/zh/page/clearing/special.html">特別結算基金</a></li>
+        	<li><a href="/zh/page/clearing/trackingmechanism.html">證券商機動提撥機制</a></li>
+        	<li><a href="/zh/page/clearing/sources.html">動用順序及補足方式</a></li>
+        </ul>
+        <h3>代收代付事項</h3>
+        <ul>
+        	<li><a href="/zh/page/clearing/warrant.html">權證履約</a></li>
+        	<li><a href="/zh/page/clearing/ipo.html">公開申購</a></li>
+        </ul>	
+
+        <a href="/zh/clearing/download/pfmidisclosure20180912zh.pdf" target="_blank"><h3>臺灣證券交易所FMI原則資訊揭露及自我評估報告</h3></a>
+      </div>
+	  
+	    <ul class="banners">
+    		<li><a href="/zh/page/clearing/characteristics.html"><figure>
+  		    <img src="/rsrc/img/mega-menu/p6-1.png"><figcaption><h3>結算交割作業特色</h3></figcaption>
+    		</figure></a></li>
+    		<li><a href="/zh/page/clearing/operations.html"><figure>
+          <img src="/rsrc/img/mega-menu/p6-2.png"><figcaption><h3> 款券交割作業</h3></figcaption>
+    		</figure></a></li>
+    		<li><a href="/zh/page/clearing/compensation.html"><figure>
+    		  <img src="/rsrc/img/mega-menu/p6-3.png"><figcaption><h3> 財務安全防衛機制</h3></figcaption>
+    		</figure></a></li>
+  		</ul>
+	  
+    </div>
+  </li>
+  <li>
+    <a>市場公告</a>
+    <div>
+      <div class="row c5">
+        <a href="/zh/announcement/announcement"><h3>公文公告</h3></a>
+        <h3>除權除息</h3>
+        <ul>
+        	<li><a href="/zh/page/trading/exchange/TWT48U.html" target="_blank">預告表</a></li>
+        	<li><a href="/zh/page/trading/exchange/TWT49U.html" target="_blank">計算結果表</a></li>
+        </ul>
+        
+        <div class="group">
+          <h3>普通股減資</h3>
+          <ul>
+          	<li><a href="/zh/page/trading/exchange/TWTAVU.html" target="_blank">減資預告表</a></li>
+          	<li><a href="/zh/page/trading/exchange/TWTAUU.html" target="_blank">股票減資恢復買賣參考價格</a></li>
+          </ul>
+        </div>
+        
+        <h3>變更股票面額</h3>
+        <ul>
+        	<li><a href="/zh/page/trading/exchange/TWTB7U.html" target="_blank">變更股票面額預告表</a></li>
+        	<li><a href="/zh/page/trading/exchange/TWTB8U.html" target="_blank">變更股票面額恢復買賣參考價格</a></li>
+        </ul>
+        <a href="/zh/page/announcement/punish.html" target="_blank"><h3>公布處置有價證券</h3></a>
+        <a href="/zh/page/announcement/notice.html" target="_blank"><h3>公布注意有價證券</h3></a>
+        <a href="/zh/page/announcement/notetrans.html"><h3>公布注意累計次數異常資訊</h3></a>
+        <a href="http://mops.twse.com.tw/mops/web/t05sr01_1" target="_blank"><h3>即時重大訊息</h3></a>
+        <a href="/zh/page/announcement/publicForm.html" target="_blank"><h3>公開申購公告</h3></a>
+        <a href="/zh/page/announcement/auction.html" target="_blank"><h3>競價拍賣公告</h3></a>
+        <a href="/staticFiles/product/broker/Market Testing Schedule20210909(zh).doc"><h3>市場會測公告</h3></a>
+        <a href="/zh/page/announcement/BFZFZU_T.html"><h3>投資理財節目異常推介個股</h3></a>
+        <a href="/zh/page/announcement/BFZFZU_U.html"><h3>特殊異常有價證券</h3></a>		 
+        <a href="/zh/page/announcement/BFIGTU.html"><h3>違約公告專區</h3></a>
+      </div>
+	  
+	    <ul class="banners">
+    		<li><a href="/zh/page/trading/exchange/TWT48U.html"><figure>
+  		    <img src="/rsrc/img/mega-menu/p7-1.png"><figcaption><h3>除權除息預告表</h3></figcaption>
+    		</figure></a></li>
+    		<li><a href="/zh/page/announcement/publicForm.html"><figure>
+          <img src="/rsrc/img/mega-menu/p7-2.png"><figcaption><h3> 公開申購公告</h3></figcaption>
+    		</figure></a></li>
+    		<li><a href="https://mops.twse.com.tw/mops/web/t05sr01_1"><figure>
+    		  <img src="/rsrc/img/mega-menu/p7-3.png"><figcaption><h3> 即時重大訊息</h3></figcaption>
+    		</figure></a></li>
+  		</ul>
+	  
+	  
+    </div>
+  </li>
+  <li>
+    <a>法令規章</a>
+    <div>
+      <div class="row c4">
+        <a href="http://twse-regulation.twse.com.tw/" target="_blank"><h3>法規分享知識庫</h3></a>
+		<a href="http://twse-regulation.twse.com.tw/TW/Categories/CLst.aspx?type=A" target="_blank"><h3>基本法規</h3></a>
+		<a href="http://twse-regulation.twse.com.tw/TW/Categories/Categories02.aspx" target="_blank"><h3>發行市場</h3></a>
+		<a href="http://twse-regulation.twse.com.tw/TW/Categories/Categories03.aspx" target="_blank"><h3>交易市場</h3></a>
+		<a href="http://twse-regulation.twse.com.tw/TW/Categories/Categories04.aspx" target="_blank"><h3>市場監理</h3></a>
+		<a href="http://twse-regulation.twse.com.tw/TW/Categories/CLst.aspx?type=E" target="_blank"><h3>資訊作業</h3></a>
+		<a href="http://twse-regulation.twse.com.tw/TW/Categories/CLst.aspx?type=F" target="_blank"><h3>公司治理</h3></a>
+        <a href="http://www.selaw.com.tw/" target="_blank"><h3>證券暨期貨法令判解查詢系統</h3></a>
+      </div>
+	  
+	    <ul class="banners">
+    		<li><a href="http://twse-regulation.twse.com.tw/"><figure>
+  		    <img src="/rsrc/img/mega-menu/p8-1.png"><figcaption><h3>法規分享知識庫</h3></figcaption>
+    		</figure></a></li>
+    		<li><a href="http://www.selaw.com.tw/"><figure>
+          <img src="/rsrc/img/mega-menu/p8-2.png"><figcaption><h3>證券暨期貨法令判解查詢系統</h3></figcaption>
+    		</figure></a></li>
+    		<li><a href="http://twse-regulation.twse.com.tw/TW/Categories/CLst.aspx?type=A"><figure>
+    		  <img src="/rsrc/img/mega-menu/p8-3.png"><figcaption><h3> 基本法規</h3></figcaption>
+    		</figure></a></li>
+  		</ul>
+    </div>
+  </li>
+</ul>
+      
+  </nav>
+  
+  <nav id="navi">
+    <div class="wp">
+      <ul>
+  <li>
+    <a>關於證交所</a>
+    <ul>
+      <li>
+        <a>公司介紹</a>
+        <ul>
+          <li><a href="/zh/page/about/company/welcome.html" data-en="/en/page/about/company/welcome.html" >首長歡迎詞</a></li>
+          <li><a href="/zh/page/about/company/history.html" data-en="/en/page/about/company/history.html" >歷史介紹</a></li>
+          <li><a href="/zh/page/about/company/service.html" data-en="/en/page/about/company/service.html" >服務介紹</a></li>
+          <li><a href="/zh/page/about/company/organization.html" data-en="/en/page/about/company/organization.html" >組織介紹</a></li>
+          <li><a href="/zh/page/about/company/service-contact.html" data-en="/en/page/about/company/service-contact.html" >服務窗口</a></li>
+          <li><a href="https://suggestionbox.twse.com.tw/swsfront35/index.aspx?Lang=zh-TW&amp;Fun=/SWSF/SWSF01014" target="_blank" data-en="https://suggestionbox.twse.com.tw/swsfront35/index.aspx?Lang=en-US&amp;Fun=/SWSF/SWSF01014" >聯絡我們</a></li>
+          <li><a href="/zh/page/about/company/finance.html" data-en="/en/page/about/company/finance.html" >財務報告書</a></li>
+          <li><a href="/zh/page/about/company/official-document.html" data-en="/en/page/about/company/official-document.html" >股利分派</a></li>
+          <li><a href="/zh/page/about/company/board.html" data-en="/en/page/about/company/board.html" >董監事名錄</a></li>
+          <li><a href="/zh/page/about/company/twseVideo.html" data-en="/en/page/about/company/twseVideo.html" >影音介紹</a></li>
+          <li><a href="/zh/page/about/company/annuals.html" data-en="/en/page/about/company/annuals.html" >年報</a></li>
+          <li><a href="/zh/page/about/company/factbooks.html" data-en="/en/page/about/company/factbooks.html" >Fact Book</a></li>
+          <li><a href="/zh/page/about/company/iso.html" data-en="/en/page/about/company/iso.html" >ISO認證</a></li>
+          <li><a href="/zh/page/about/company/map.html" data-en="/en/page/about/company/map.html" >證交所地圖</a></li>
+          <li><a href="/zh/page/about/company/guide.html" data-en="/en/page/about/company/guide.html" >臺灣投資指南 2020</a></li>
+        </ul>
+      </li>
+      <li>
+        <a>新聞資訊</a>
+        <ul>
+          <li><a href="/zh/news/newsList" data-en="/en/news/newsList" >證交所新聞</a></li>
+          <li class="f2"><a href="/zh/news/eventList" data-en="/en/news/eventList" >活動訊息</a></li>
+          <li class="f2"><a href="/zh/news/guestList" data-en="/en/news/guestList" >外賓參訪</a></li>
+        </ul>
+      </li>
+      <li><a href="/zh/page/about/suspended_faq.html" data-en="/en/page/about/suspended_faq.html" >因應重大災變查詢證券相關業務問答</a></li>
+      <li class="hide">
+        <a>相關網站</a>
+        <ul>
+          <li><a href="/zh/page/about/links.html" data-en="/en/page/about/links.html" >國內外相關網站</a></li>
+          <li><a href="/zh/page/about/links-TDR.html" data-en="/en/page/about/links-TDR.html" >臺灣存託憑證原股資訊</a></li>
+        </ul>
+      </li>
+      <li><a href="/CSR/zh/index.html" target="_blank" data-en="/CSR/en/index.html" >企業社會責任</a></li>
+      <li class="hide f2"><a href="/zh/vendor/list" data-en="/en/vendor/list" >採購專區</a></li>
+    </ul>
+  </li>
+  <li>
+    <a>交易資訊</a>
+    <ul>
+      <li class="f1">
+        <a>盤後資訊</a>
+        <ul>
+          <li value="1300"><a href="/zh/page/trading/exchange/MI_INDEX.html" target="_blank" data-en="/en/page/trading/exchange/MI_INDEX.html" >每日收盤行情</a></li>
+          <li class="f1" value="900"><a href="/zh/page/trading/exchange/FMTQIK.html" data-en="/en/page/trading/exchange/FMTQIK.html" >每日市場成交資訊</a></li>
+          <li><a href="/zh/page/trading/exchange/STOCK_FIRST.html" target="_blank" data-en="/en/page/trading/exchange/STOCK_FIRST.html" >每日第一上市外國股票成交量值</a></li>
+          <li><a href="/zh/page/trading/exchange/STOCK_TIB.html" target="_blank" data-en="/en/page/trading/exchange/STOCK_TIB.html" >每日創新板股票成交量值</a></li>
+          <li><a href="/zh/page/trading/exchange/MI_INDEX20.html" target="_blank" data-en="/en/page/trading/exchange/MI_INDEX20.html" >每日成交量前二十名證券</a></li>
+          <li><a href="/zh/page/trading/exchange/MI_5MINS.html" target="_blank" data-en="/en/page/trading/exchange/MI_5MINS.html" >每5秒委託成交統計</a></li>
+          <li><a href="/zh/page/trading/exchange/BFIAMU.html" data-en="/en/page/trading/exchange/BFIAMU.html" >各類指數日成交量值</a></li>
+          <li value="1500"><a href="/zh/page/trading/exchange/STOCK_DAY.html" data-en="/en/page/trading/exchange/STOCK_DAY.html" >個股日成交資訊</a></li>
+          <li><a href="/zh/page/trading/exchange/TWTASU.html" data-en="/en/page/trading/exchange/TWTASU.html" >當日融券賣出與借券賣出成交量值</a></li>
+          <li class="f1" value="500"><a href="/zh/page/trading/exchange/STOCK_DAY_AVG.html" data-en="/en/page/trading/exchange/STOCK_DAY_AVG.html" >個股日收盤價及月平均價</a></li>
+          <li><a href="/zh/page/trading/exchange/FMSRFK.html" data-en="/en/page/trading/exchange/FMSRFK.html" >個股月成交資訊</a></li>
+          <li><a href="/zh/page/trading/exchange/FMNPTK.html" data-en="/en/page/trading/exchange/FMNPTK.html" >個股年成交資訊</a></li>
+          <li><a href="/zh/page/trading/exchange/BFT41U.html" data-en="/en/page/trading/exchange/BFT41U.html" >盤後定價交易</a></li>
+          <li><a href="/zh/page/trading/exchange/TWTC7U.html" target="_blank" data-en="/en/page/trading/exchange/TWTC7U.html" >盤中零股交易行情單</a></li>
+          <li class="f1"><a href="/zh/page/trading/exchange/TWT53U.html" target="_blank" data-en="/en/page/trading/exchange/TWT53U.html" >盤後零股交易行情單</a></li>
+          <li class="f1" value="200"><a href="/zh/page/trading/exchange/BWIBBU_d.html" data-en="/en/page/trading/exchange/BWIBBU_d.html" >個股日本益比、殖利率及股價淨值比（依日期查詢）</a></li>
+          <li><a href="/zh/page/trading/exchange/BWIBBU.html" data-en="/en/page/trading/exchange/BWIBBU.html" >個股日本益比、殖利率及股價淨值比（依代碼查詢）</a></li>
+          <li><a href="/zh/page/trading/exchange/TWTAWU.html" data-en="/en/page/trading/exchange/TWTAWU.html" >暫停交易證券</a></li>
+        </ul>
+      </li>
+      <li class="f1">
+        <a>升降幅度/首五日無漲跌幅</a>
+        <ul>
+          <li><a href="/zh/page/trading/exchange/TWT84U.html" target="_blank" data-en="/en/page/trading/exchange/TWT84U.html" >股價升降幅度</a></li>
+          <li><a href="/zh/page/trading/exchange/TWT88U.html" target="_blank" data-en="/en/page/trading/exchange/TWT88U.html" >首五日無漲跌幅</a></li>
+        </ul>
+      </li>
+      <li class="f1"><a href="/zh/page/trading/exchange/TWT85U.html" data-en="/en/page/trading/exchange/TWT85U.html" >變更交易</a></li>
+      <li class="f1">
+        <a>當日沖銷交易標的</a>
+        <ul>
+          <li><a href="/zh/page/trading/exchange/TWTB4U.html" target="_blank" data-en="/en/page/trading/exchange/TWTB4U.html" >每日當日沖銷交易標的</a></li>
+          <li value="100"><a href="/zh/page/trading/exchange/TWTB4U2.html" target="_blank" data-en="/en/page/trading/exchange/TWTB4U2.html" >每月當日沖銷交易標的及統計</a></li>
+          <li><a href="/zh/page/trading/exchange/TWTBAU1.html" data-en="/en/page/trading/exchange/TWTBAU1.html" >暫停先賣後買當日沖銷交易標的預告表</a></li>
+          <li><a href="/zh/page/trading/exchange/TWTBAU2.html" data-en="/en/page/trading/exchange/TWTBAU2.html" >暫停先賣後買當日沖銷交易歷史查詢</a></li>
+          <li><a href="/zh/page/trading/exchange/BFIF8U.html" data-en="/en/page/trading/exchange/BFIF8U.html" >應付現股當日沖銷券差借券費率</a></li>
+        </ul>
+      </li>
+      <li class="f1">
+        <a>融資融券與可借券賣出額度</a>
+        <ul>
+          <li><a href="/zh/exchange/BFIB9U" target="_blank" data-en="/en/exchange/BFIB9U" >調整成數</a></li>
+          <li value="1800"><a href="/zh/page/trading/exchange/MI_MARGN.html" target="_blank" data-en="/en/page/trading/exchange/MI_MARGN.html" >融資融券餘額</a></li>
+          <li><a href="/zh/page/trading/exchange/BFI84U.html" data-en="/en/page/trading/exchange/BFI84U.html" >停券預告表</a></li>
+          <li><a href="/zh/page/trading/exchange/BFI84U2.html" data-en="/en/page/trading/exchange/BFI84U2.html" >停券歷史查詢</a></li>
+          <li><a href="/zh/page/trading/exchange/TWT92U.html" data-en="/en/page/trading/SBL/TWTACU.html" >平盤下得融(借)券賣出之證券名單</a></li>
+          <li class="f1" value="700"><a href="/zh/page/trading/exchange/TWT93U.html" target="_blank" data-en="/en/page/trading/exchange/TWT93U.html" >融券借券賣出餘額</a></li>
+          <li><a href="/zh/page/trading/SBL/TWT96U.html" data-en="/en/page/trading/SBL/TWT96U.html" >當日可借券賣出股數</a></li>
+          <li><a href="/zh/page/trading/exchange/TWTA1U.html" target="_blank" data-en="/en/page/trading/exchange/TWTA1U.html" >借貸款項擔保品管制餘額</a></li>
+        </ul>
+      </li>
+      <li class="f1"><a href="/zh/page/trading/exchange/BFIB8U.html" target="_blank" data-en="/en/page/trading/exchange/BFIB8U.html" >標借</a></li>
+      <li class="f1">
+        <a>三大法人</a>
+        <ul>
+          <li value="2000"><a href="/zh/page/trading/fund/BFI82U.html" data-en="/en/page/trading/fund/BFI82U.html" >三大法人買賣金額統計表</a></li>
+          <li class="f1" value="1600"><a href="/zh/page/trading/fund/T86.html" target="_blank" data-en="/en/page/trading/fund/T86.html" >三大法人買賣超日報</a></li>
+          <li><a href="/zh/page/trading/fund/TWT54U.html" target="_blank" data-en="/en/page/trading/fund/TWT54U.html" >三大法人買賣超週報</a></li>
+          <li><a href="/zh/page/trading/fund/TWT47U.html" target="_blank" data-en="/en/page/trading/fund/TWT47U.html" >三大法人買賣超月報</a></li>
+          <li><a href="/zh/page/trading/fund/TWT43U.html" target="_blank" data-en="/en/page/trading/fund/TWT43U.html" >自營商買賣超彙總表</a></li>
+          <li value="1900"><a href="/zh/page/trading/fund/TWT44U.html" data-en="/en/page/trading/fund/TWT44U.html" >投信買賣超彙總表</a></li>
+          <li value="1700"><a href="/zh/page/trading/fund/TWT38U.html" target="_blank" data-en="/en/page/trading/fund/TWT38U.html" >外資及陸資買賣超彙總表</a></li>
+          <li><a href="/zh/page/trading/fund/MI_QFIIS.html" target="_blank" data-en="/en/page/trading/fund/MI_QFIIS.html" >外資及陸資投資持股統計</a></li>
+          <li><a href="/zh/page/trading/fund/MI_QFIIS_sort_20.html" target="_blank" data-en="/en/page/trading/fund/MI_QFIIS_sort_20.html" >外資及陸資持股前20名彙總表</a></li>
+          <li><a href="/zh/page/trading/fund/MI_QFIIS_cat.html" data-en="/en/page/trading/fund/MI_QFIIS_cat.html" >外資及陸資投資類股持股比率表</a></li>
+          <li><a href="/zh/page/trading/fund/FMGDRK.html" data-en="/en/page/trading/fund/FMGDRK.html" >國內上市公司發行海外存託憑證彙總表</a></li>
+        </ul>
+      </li>
+      <li class="f1">
+        <a>中央登錄公債</a>
+        <ul>
+          <li><a href="/zh/page/trading/exchange/BFI61U.html" data-en="/en/page/trading/exchange/BFI61U.html" >中央登錄公債補息資料表</a></li>
+          <li><a href="/zh/margin/ABP010" target="_blank" data-en="/en/margin/ABP010" >中央登錄公債行情單</a></li>
+        </ul>
+      </li>
+      <li class="f1">
+        <a>鉅額交易</a>
+        <ul>
+          <li><a href="/zh/page/trading/block/BFIAUU.html" data-en="/en/page/trading/block/BFIAUU.html" >鉅額交易日成交資訊</a></li>
+          <li><a href="/zh/page/trading/block/BFIAUU_sd.html" data-en="/en/page/trading/block/BFIAUU_sd.html" >個股單一證券鉅額交易日成交資訊</a></li>
+          <li><a href="/zh/page/trading/block/BFIAUU_d.html" data-en="/en/page/trading/block/BFIAUU_d.html" >鉅額交易日成交量值統計</a></li>
+          <li><a href="/zh/page/trading/block/BFIAUU_m.html" data-en="/en/page/trading/block/BFIAUU_m.html" >鉅額交易月成交量值統計</a></li>
+          <li><a href="/zh/page/trading/block/BFIAUU_y.html" data-en="/en/page/trading/block/BFIAUU_y.html" >鉅額交易年成交量值統計</a></li>
+        </ul>
+      </li>
+      <li class="f1">
+        <a>統計報表</a>
+        <ul>
+          <li><a href="/zh/statistics/statisticsWeek" data-en="/en/statistics/statisticsWeek" >市值週報</a></li>
+          <li><a href="/zh/statistics/index/01" data-en="/en/statistics/index/01" >股價指數月報</a></li>
+          <li><a href="/zh/statistics/index/02" data-en="/en/statistics/index/02" >市場交易月報</a></li>
+          <li><a href="/zh/statistics/index/03" data-en="/en/statistics/index/03" >證券商月報</a></li>
+          <li><a href="/zh/statistics/index/04" data-en="/en/statistics/index/04" >上市公司月報</a></li>
+          <li><a href="/zh/statistics/index/05" data-en="/en/statistics/index/05" >上市公司季報</a></li>
+          <li><a href="/zh/statistics/index/06" data-en="/en/statistics/index/06" >國際主要股市月報</a></li>
+          <li><a href="/zh/statistics/index/07" data-en="/en/statistics/index/07" >證券統計資料年報</a></li>
+        </ul>
+      </li>
+      <li class="f2"><a href="/zh/holidaySchedule/holidaySchedule" data-en="/en/holidaySchedule/holidaySchedule" >市場開休市日期</a></li>
+    </ul>
+  </li>
+  <li>
+    <a>指數資訊</a>
+    <ul>
+      <li>
+        <a>本公司股價指數與授權</a>
+        <ul>
+          <li><a href="/zh/page/products/indices/series.html" data-en="/en/page/products/indices/series.html" >指數系列</a></li>
+          <li><a href="/zh/page/products/indices/auth.html" data-en="/en/page/products/indices/auth.html" >指數授權</a></li>
+        </ul>
+      </li>
+      <li>
+        <a>臺灣跨市場指數</a>
+        <ul>
+          <li><a href="/zh/page/trading/indices/FRMSA.html" data-en="/en/page/trading/indices/FRMSA.html" >寶島股價指數歷史資料</a></li>
+          <li><a href="/zh/page/trading/exchange/MI_INDEX4.html" data-en="/en/page/trading/exchange/MI_INDEX4.html" >每日上市上櫃跨市場成交資訊</a></li>
+        </ul>
+      </li>
+      <li>
+        <a>與銳聯合作編製指數</a>
+        <ul>
+          <li><a href="/zh/page/trading/indices/EMP99.html" data-en="/en/page/trading/indices/EMP99.html" >臺灣就業99指數歷史資料</a></li>
+          <li><a href="/zh/page/trading/indices/HC100.html" data-en="/en/page/trading/indices/HC100.html" >臺灣高薪100指數歷史資料</a></li>
+        </ul>
+      </li>
+      <li>
+        <a>TWSE自行編製指數</a>
+        <ul>
+          <li><a href="/zh/page/trading/exchange/MI_5MINS_INDEX.html" target="_blank" data-en="/en/page/trading/exchange/MI_5MINS_INDEX.html" >每5秒指數盤後統計</a></li>
+          <li><a href="/zh/page/trading/indices/MFI94U.html" data-en="/en/page/trading/indices/MFI94U.html" >發行量加權股價報酬指數</a></li>
+          <li><a href="/zh/page/trading/indices/TTDR.html" data-en="/en/page/trading/indices/TTDR.html" >臺指槓桿及反向指數歷史資料</a></li>
+          <li><a href="/zh/page/trading/indices/MI_5MINS_HIST.html" data-en="/en/page/trading/indices/MI_5MINS_HIST.html" >發行量加權股價指數歷史資料</a></li>
+          <li><a href="/zh/page/trading/indices/TWT91U.html" data-en="/en/page/trading/indices/TWT91U.html" >未含金融電子股指數歷史資料</a></li>
+          <li><a href="/zh/page/trading/indices/SC300.html" data-en="/en/page/trading/indices/SC300.html" >小型股300指數歷史資料</a></li>
+          <li><a href="/zh/page/trading/indices/EFTRI_HIST.html" target="_blank" data-en="/en/page/trading/indices/EFTRI_HIST.html" >電子類指數及金融保險類指數</a></li>
+          <li><a href="/zh/page/trading/indices/EFTRI.html" target="_blank" data-en="/en/page/trading/indices/EFTRI.html" >電子類報酬指數及金融保險類報酬指數</a></li>
+          <li><a href="/zh/page/trading/indices/CG100.html" data-en="/en/page/trading/indices/CG100.html" >臺灣公司治理100指數歷史資料</a></li>
+        </ul>
+      </li>
+      <li>
+        <a>與FTSE合作編製指數</a>
+        <ul>
+          <li><a href="/zh/page/trading/indices/TAI50I.html" data-en="/en/page/trading/indices/TAI50I.html" >臺灣50指數歷史資料</a></li>
+          <li><a href="/zh/page/trading/indices/BFM44U.html" data-en="/en/page/trading/indices/BFM44U.html" >臺灣50指數月平均價差</a></li>
+          <li><a href="/zh/page/trading/indices/TAI100I.html" data-en="/en/page/trading/indices/TAI100I.html" >臺灣中型100指數歷史資料</a></li>
+          <li><a href="/zh/page/trading/indices/BFM44U_TWMC.html" data-en="/en/page/trading/indices/BFM44U_TWMC.html" >臺灣中型100指數月平均價差</a></li>
+          <li><a href="/zh/page/trading/indices/TAIINTI.html" data-en="/en/page/trading/indices/TAIINTI.html" >臺灣資訊科技指數歷史資料</a></li>
+          <li><a href="/zh/page/trading/indices/BFM44U_TWIT.html" data-en="/en/page/trading/indices/BFM44U_TWIT.html" >臺灣資訊科技指數月平均價差</a></li>
+          <li><a href="/zh/page/trading/indices/TAIEI.html" data-en="/en/page/trading/indices/TAIEI.html" >臺灣發達指數歷史資料</a></li>
+          <li><a href="/zh/page/trading/indices/BFM44U_TWEI.html" data-en="/en/page/trading/indices/BFM44U_TWEI.html" >臺灣發達指數月平均價差</a></li>
+          <li><a href="/zh/page/trading/indices/TAIDIVIDI.html" data-en="/en/page/trading/indices/TAIDIVIDI.html" >臺灣高股息指數歷史資料</a></li>
+          <li><a href="/zh/page/trading/indices/BFM44U_TWDP.html" data-en="/en/page/trading/indices/BFM44U_TWDP.html" >臺灣高股息指數月平均價差</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a>上市公司</a>
+    <ul>
+      <li value="1000"><a href="/zh/listed/listingProfile" data-en="/en/listed/listingProfile" >上市公司整合資訊</a></li>
+      <li><a href="/zh/listed/listingProfileInquiry" data-en="/en/listed/listingProfileInquiry" >上市公司條件選股</a></li>
+      <li>
+        <a>上市辦法</a>
+        <ul>
+          <li><a href="/zh/page/listed/process/standars.html" data-en="/en/page/listed/process/standars.html" >國內公司申請標準</a></li>
+          <li><a href="/zh/page/listed/process/flow.html" data-en="/en/page/listed/process/flow.html" >國內公司申請流程</a></li>
+        </ul>
+      </li>
+      <li>
+        <a>上市公司</a>
+        <ul>
+          <li><a href="/zh/page/listed/listed_company/new_listing.html" target="_blank" data-en="/en/page/listed/listed_company/new_listing.html" >最近上市公司</a></li>
+          <li value="300"><a href="/zh/company/applylisting" target="_blank" data-en="/en/company/applylisting" >申請上市公司</a></li>
+          <li><a href="/zh/company/ipoSeo" target="_blank" data-en="/en/company/ipoSeo" >向本公司申請辦理首次公開發行及初次上市前現金增資案件彙總表</a></li>
+          <li><a href="/zh/company/sharesChange" target="_blank" data-en="/en/company/sharesChange" >向本公司申請辦理合併發行新股、受讓他公司股份發行新股、依法律規定進行收購或分割發行新股、私募有價證券補辦公開發行及減少資本案件彙總表</a></li>
+          <li><a href="/zh/company/applylistingTdr" target="_blank" data-en="/en/company/applylistingTdr" >向本公司申請發行臺灣存託憑證公司</a></li>
+          <li><a href="https://mops.twse.com.tw/mops/web/t68sb01_q1" target="_blank" data-en="/en/page/listed/listed_company/counseling.html" >輔導中公司</a></li>
+        </ul>
+      </li>
+      <li>
+        <a>上市公司違規及交易面異常資訊</a>
+        <ul>
+          <li><a href="/zh/violation/change" data-en="/en/violation/change" >變更交易</a></li>
+          <li><a href="/zh/violation/stop" data-en="/en/violation/stop" >停止買賣</a></li>
+        </ul>
+      </li>
+      <li><a href="/zh/company/suspendListing" data-en="/en/company/suspendListing" >終止上市公司</a></li>
+      <li>
+        <a>外國企業來臺上市</a>
+        <ul>
+          <li><a href="/zh/page/listed/alien-business/welcome.html" data-en="/en/page/listed/alien-business/welcome.html" >前言</a></li>
+          <li><a href="/zh/page/listed/alien-business/manual.html" data-en="/en/page/listed/alien-business/manual.html" >宣導手冊</a></li>
+          <li><a href="/zh/page/listed/alien-business/flow.html" data-en="/en/page/listed/alien-business/flow.html" >上市申請流程</a></li>
+          <li><a href="/zh/page/listed/alien-business/qanda.html" data-en="/en/page/listed/alien-business/qanda.html" >外國企業來臺上市常見問題與說明</a></li>
+          <li><a href="/zh/page/listed/alien-business/plan.html" data-en="/en/page/listed/alien-business/plan.html" >歷次宣導及參考資料</a></li>
+          <li><a href="/zh/page/listed/alien-business/links.html" data-en="/en/page/listed/alien-business/links.html" >其它相關網站</a></li>
+        </ul>
+      </li>
+      <li>
+        <a>臺灣創新板(TIB)</a>
+        <ul>
+          <li><a href="/zh/page/products/tib/preface.html" data-en="/en/page/products/tib/preface.html" >前言</a></li>
+          <li>
+            <a>上市制度</a>
+            <ul>
+              <li><a href="/zh/page/products/tib/requirement.html" data-en="/en/page/products/tib/requirement.html" >上市條件</a></li>
+              <li><a href="/zh/page/products/tib/process.html" data-en="/en/page/products/tib/process.html" >上市申請流程</a></li>
+            </ul>
+          </li>
+          <li><a href="/zh/page/products/tib/mechanism.html" data-en="/en/page/products/tib/mechanism.html" >交易制度</a></li>
+          <li>
+            <a>宣導及參考資料</a>
+            <ul>
+              <li><a href="/zh/page/products/tib/manual.html" data-en="/en/page/products/tib/manual.html" >宣導活動與文宣</a></li>
+              <li><a href="/downloads/zh/products/shortversion-zh.pdf" target="_blank" data-en="/downloads/en/products/shortversion-en.pdf" >懶人包</a></li>
+              <li><a href="/zh/page/products/tib/news.html" data-en="/en/page/products/tib/news.html" >新聞稿</a></li>
+              <li><a href="/zh/page/products/tib/announcement.html" data-en="/en/page/products/tib/announcement.html" >規章公告</a></li>
+            </ul>
+          </li>
+          <li><a href="/downloads/zh/products/tib_qa.pdf" data-en="/downloads/en/products/tib_qa.pdf" >常見問題與說明</a></li>
+        </ul>
+      </li>
+      <li><a href="/zh/page/listed/IFRS.html" data-en="/en/page/listed/IFRS.html" >國際財務報導準則(IFRS)</a></li>
+      <li><a href="/zh/page/listed/XBRL.html" data-en="/en/page/listed/XBRL.html" >財務報告語言(XBRL)</a></li>
+    </ul>
+  </li>
+  <li>
+    <a>產品與服務</a>
+    <ul>
+      <li class="f1">
+        <a>上市證券種類</a>
+        <ul>
+          <li><a href="/zh/page/products/securities/stocks.html" data-en="/en/page/products/securities/stocks.html" >股票</a></li>
+          <li><a href="/zh/page/products/securities/dr.html" data-en="/en/page/products/securities/dr.html" >臺灣存託憑證</a></li>
+          <li><a href="/zh/page/products/securities/warrant/profile.html" target="_blank" data-en="/en/page/products/securities/warrant/profile.html" >認購(售)權證</a></li>
+          <li><a href="/zh/page/products/securities/bond.html" data-en="/en/page/products/securities/bond.html" >債券</a></li>
+          <li><a href="/zh/page/products/securities/certificate.html" data-en="/en/page/products/securities/certificate.html" >受益憑證</a></li>
+          <li><a href="/zh/ETF/news" data-en="/en/page/ETF/news.html" >ETF</a></li>
+          <li><a href="/zh/page/products/securities/security.html" data-en="/en/page/products/securities/security.html" >受益證券</a></li>
+          <li><a href="/zh/page/ETN/summary.html" data-en="/en/page/ETN/summary.html" >ETN</a></li>
+        </ul>
+      </li>
+      <li>
+        <a>有價證券借貸</a>
+        <ul>
+          <li><a href="/zh/page/products/sbl/edu.html" data-en="/en/page/products/sbl/edu.html" >有價證券借貸制度介紹</a></li>
+          <li class="f1" value="400"><a href="/zh/page/products/sbl/sbl_info.html" data-en="/en/page/products/sbl/sbl_info.html" >借券資訊</a></li>
+          <li><a href="/zh/page/products/sbl/law.html" data-en="/en/page/products/sbl/law.html" >法規、公告、函令</a></li>
+          <li><a href="/zh/page/products/sbl/form.html" data-en="/en/page/products/sbl/form.html" >各項契約及表格</a></li>
+          <li><a href="/zh/page/products/sbl/news.html" data-en="/en/page/products/sbl/news.html" >有價證券借貸里程碑與新聞</a></li>
+          <li><a href="/zh/page/products/sbl/faq.html" data-en="/en/page/products/sbl/faq.html" >問答集</a></li>
+        </ul>
+      </li>
+      <li>
+        <a>證券編碼</a>
+        <ul>
+          <li><a href="/zh/page/products/stock-code1.html" data-en="/en/page/products/stock-code1.html" >證券編碼查詢</a></li>
+          <li><a href="/zh/page/products/stock-code2.html" data-en="/en/page/products/stock-code2.html" >證券編碼公告</a></li>
+        </ul>
+      </li>
+      <li><a href="/zh/page/products/lei.html" data-en="/en/page/products/lei.html" >法人機構識別碼LEI</a></li>
+      <li>
+        <a>證券商服務</a>
+        <ul>
+          <li><a href="/zh/brokerService/brokerServiceAudit" data-en="/en/brokerService/brokerServiceAudit" >證券商資訊</a></li>
+          <li><a href="/zh/brokerService/secRegData" data-en="/en/brokerService/secRegData" >證券商辦理定期定額業務資料</a></li>
+          <li><a href="/zh/page/ETF/rank.html" data-en="/en/page/ETF/rank.html" >定期定額交易戶數統計排行月報表</a></li>
+          <li><a href="/zh/page/products/broker/sbl/broker.html" data-en="/en/page/products/broker/sbl/broker.html" >證券商辦理有價證券借貸</a></li>
+          <li><a href="/zh/page/products/broker/sbl2/financing.html" data-en="/en/page/products/broker/sbl2/financing.html" >證券業務借貸款項及不限用途款項借貸</a></li>
+        </ul>
+      </li>
+      <li class="f1">
+        <a>查詢個人資料服務</a>
+        <ul>
+          <li><a href="https://investor.twse.com.tw/" target="_blank" data-en="/en/page/products/info-service.html" >投資人個人資料查詢系統</a></li>
+          <li><a href="/zh/page/products/InvDataQuery.html" data-en="/en/page/products/InvDataQuery.html" >投資人查詢/查詢被繼承人在證券集中交易市場帳戶或交易資料作業程序</a></li>
+          <li><a href="/zh/page/products/InvDataQuery2.html" data-en="/en/page/products/InvDataQuery2.html" >證券投資信託/顧問事業員工暨其配偶及未成年子女委託查詢證券開戶及交易資料作業程序</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="/zh/page/products/info-vendor/intro.html" data-en="/en/page/products/info-vendor/intro.html" >資訊服務</a>
+        <ul>
+          <li><a href="/zh/page/products/info-vendor/press.html" data-en="/en/page/products/info-vendor/press.html" >即時交易資訊</a></li>
+          <li><a href="/zh/page/products/info-vendor/index.html" data-en="/en/page/products/info-vendor/index.html" >即時股價指數資訊</a></li>
+          <li><a href="/zh/page/products/info-vendor/delay.html" data-en="/en/page/products/info-vendor/delay.html" >延遲交易資訊</a></li>
+          <li><a href="/zh/page/products/info-vendor/history.html" data-en="/en/page/products/info-vendor/history.html" >盤後資訊與歷史交易資料</a></li>
+          <li><a href="/zh/page/products/info-vendor/use.html" data-en="/en/page/products/info-vendor/use.html" >交易資訊使用管理辦法、契約、收費標準</a></li>
+          <li><a href="/zh/products/vendors" data-en="/en/products/vendors" >簽約資訊公司名冊</a></li>
+          <li><a href="/zh/page/products/info-vendor/faq.html" data-en="/en/page/products/info-vendor/faq.html" >問答集</a></li>
+        </ul>
+      </li>
+      <li>
+        <a>交易系統</a>
+        <ul>
+          <li><a href="/zh/page/products/trading/introduce.html" data-en="/en/page/products/trading/introduce.html" >一般交易</a></li>
+          <li><a href="/zh/page/products/trading/introduce.html#02" data-en="/en/page/products/trading/introduce.html#02" >權證逐筆交易</a></li>
+          <li><a href="/zh/page/products/trading/introduce.html#03" data-en="/en/page/products/trading/introduce.html#03" >盤後定價交易</a></li>
+          <li><a href="/zh/page/products/trading/introduce.html#04" data-en="/en/page/products/trading/introduce.html#04" >盤中零股交易</a></li>
+          <li><a href="/zh/page/products/trading/introduce.html#05" data-en="/en/page/products/trading/introduce.html#05" >盤後零股交易</a></li>
+          <li><a href="/zh/page/products/trading/introduce.html#06" data-en="/en/page/products/trading/introduce.html#06" >鉅額交易</a></li>
+          <li><a href="/zh/page/products/trading/introduce.html#07" data-en="/en/page/products/trading/introduce.html#07" >拍賣</a></li>
+          <li><a href="/zh/page/products/trading/introduce.html#08" data-en="/en/page/products/trading/introduce.html#08" >標購</a></li>
+          <li><a href="/zh/page/products/trading/introduce.html#09" data-en="/en/page/products/trading/introduce.html#09" >中央登錄公債及外國債券</a></li>
+          <li><a href="/zh/page/products/trading/introduce.html#10" data-en="/en/page/products/trading/introduce.html#10" >綜合交易帳戶</a></li>
+          <li><a href="/zh/page/products/trading/introduce.html#11" data-en="/en/page/products/trading/introduce.html#11" >有價證券暫停及恢復交易</a></li>
+          <li><a href="/zh/page/products/trading/introduce.html#12" data-en="/en/page/products/trading/introduce.html#12" >交易方式彙總</a></li>
+          <li><a href="/zh/page/products/trading/information5.html" data-en="/en/page/products/trading/information5.html" >當日沖銷交易</a></li>
+          <li><a href="/zh/page/products/trading/intrBFIFYU.html" data-en="/en/page/products/trading/intrBFIFYU.html" >定期定額投資</a></li>
+          <li>
+            <a>雙幣ETF交易</a>
+            <ul>
+              <li><a href="/zh/page/products/trading/introduce12.html" data-en="/en/page/products/trading/introduce12.html" >雙幣ETF交易機制介紹</a></li>
+              <li><a href="/zh/exchange/TWTBDU" data-en="/en/exchange/TWTBDU" >代號對應及每日公告匯率</a></li>
+            </ul>
+          </li>
+          <li><a href="/zh/page/products/trading/information13.html" data-en="/en/page/products/trading/information13.html" >逐筆交易制度介紹</a></li>
+          <li><a href="/zh/page/products/trading/introduce14.html" data-en="/en/page/products/trading/introduce14.html" >盤中零股交易專區</a></li>
+          <li><a href="/zh/page/products/trading/introduce15.html" data-en="/en/page/products/trading/introduce15.html" >股票造市制度專區</a></li>
+        </ul>
+      </li>
+      <li><a href="/zh/page/products/dataeshop.html" data-en="/en/page/products/dataeshop.html" >網路資訊商店</a></li>
+      <li><a href="/zh/page/products/colocationArea.html" data-en="/en/page/products/colocationArea.html" >Co-Location主機共置</a></li>
+      <li>
+        <a>出版品</a>
+        <ul>
+          <li><a href="/zh/products/essay" data-en="/en/products/essay" >證券服務</a></li>
+          <li><a href="/zh/products/publication" data-en="/en/products/publication" >證券市場發展動態</a></li>
+          <li><a href="/zh/products/report" data-en="/en/products/report" >研究報告</a></li>
+          <li><a href="/zh/products/etc" data-en="/en/products/etc" >其他出版品</a></li>
+          <li><a href="/zh/products/monthNewsletter" data-en="/en/products/monthNewsletter" >證券市場月訊</a></li>
+        </ul>
+      </li>
+      <li>
+        <a>投資人教育</a>
+        <ul>
+          <li><a href="https://investoredu.twse.com.tw" target="_blank" data-en="/en/page/investor/knowledge.html" >投資人知識網</a></li>
+          <li><a href="/zh/page/investor/foreign/01.html" data-en="/en/page/investor/foreign/01.html" >僑外投資</a></li>
+          <li><a href="/zh/page/investor/edu/index.html" data-en="/en/page/investor/edu/index.html" >防制內線交易</a></li>
+          <li><a href="https://www.twse.com.tw/IFRS/learningInvest" target="_blank" data-en="/en/page/investor/IFRS.html" >IFRS專題報導</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a>結算服務</a>
+    <ul>
+      <li><a href="/zh/page/clearing/rules.html" data-en="/en/page/clearing/rules.html" >結算交割之法源</a></li>
+      <li><a href="/zh/page/clearing/scope.html" data-en="/en/page/clearing/scope.html" >結算標的</a></li>
+      <li>
+        <a>結算制度</a>
+        <ul>
+          <li><a href="/zh/page/clearing/characteristics.html" data-en="/en/page/clearing/characteristics.html" >結算交割作業特色</a></li>
+          <li><a href="/zh/page/clearing/operations.html" data-en="/en/page/clearing/operations.html" >款券交割作業</a></li>
+        </ul>
+      </li>
+      <li><a href="/zh/page/clearing/borrowing_system.html" data-en="/en/page/clearing/borrowing_system.html" >交割借券制度</a></li>
+      <li><a href="/zh/page/clearing/punishment.html" data-en="/en/page/clearing/punishment.html" >逾時交割之處理</a></li>
+      <li><a href="/zh/page/clearing/procedure.html" data-en="/en/page/clearing/procedure.html" >違背交割義務之處理</a></li>
+      <li>
+        <a>財務安全防衛機制</a>
+        <ul>
+          <li><a href="/zh/page/clearing/compensation.html" data-en="/en/page/clearing/compensation.html" >賠償準備金</a></li>
+          <li><a href="/zh/page/clearing/joint.html" data-en="/en/page/clearing/joint.html" >共同責任制交割結算基金</a></li>
+          <li><a href="/zh/page/clearing/special.html" data-en="/en/page/clearing/special.html" >特別結算基金</a></li>
+          <li><a href="/zh/page/clearing/trackingmechanism.html" data-en="/en/page/clearing/trackingmechanism.html" >證券商機動提撥機制</a></li>
+          <li><a href="/zh/page/clearing/sources.html" data-en="/en/page/clearing/sources.html" >動用順序及補足方式</a></li>
+        </ul>
+      </li>
+      <li>
+        <a>代收代付事項</a>
+        <ul>
+          <li><a href="/zh/page/clearing/warrant.html" data-en="/en/page/clearing/warrant.html" >權證履約</a></li>
+          <li><a href="/zh/page/clearing/ipo.html" data-en="/en/page/clearing/ipo.html" >公開申購</a></li>
+        </ul>
+      </li>
+      <li><a href="/zh/page/clearing/suspended.html" data-en="/en/page/clearing/suspended.html" >天然災害停止上班之處理</a></li>
+      <li><a href="/zh/clearing/download/pfmidisclosure20180912zh.pdf" target="_blank" data-en="/en/clearing/download/pfmidisclosure20180912.pdf" >臺灣證券交易所FMI原則資訊揭露及自我評估報告</a></li>
+    </ul>
+  </li>
+  <li>
+    <a>市場公告</a>
+    <ul>
+      <li class="f2"><a href="/zh/announcement/announcement" data-en="/en/announcement/announcement" >公文公告</a></li>
+      <li class="hide"><a href="/zh/announcement/official">公文通函查詢</a></li>
+      <li class="f2">
+        <a>除權除息</a>
+        <ul>
+          <li class="f1" value="1200"><a href="/zh/page/trading/exchange/TWT48U.html" target="_blank" data-en="/en/page/trading/exchange/TWT48U.html" >預告表</a></li>
+          <li><a href="/zh/page/trading/exchange/TWT49U.html" target="_blank" data-en="/en/page/trading/exchange/TWT49U.html" >計算結果表</a></li>
+        </ul>
+      </li>
+      <li class="f2">
+        <a>普通股減資</a>
+        <ul>
+          <li><a href="/zh/page/trading/exchange/TWTAVU.html" target="_blank" data-en="/en/page/trading/exchange/TWTAVU.html" >減資預告表</a></li>
+          <li><a href="/zh/page/trading/exchange/TWTAUU.html" target="_blank" data-en="/en/page/trading/exchange/TWTAUU.html" >股票減資恢復買賣參考價格</a></li>
+        </ul>
+      </li>
+      <li class="f2">
+        <a>變更股票面額</a>
+        <ul>
+          <li><a href="/zh/page/trading/exchange/TWTB7U.html" target="_blank" data-en="/en/page/trading/exchange/TWTB7U.html" >變更股票面額預告表</a></li>
+          <li><a href="/zh/page/trading/exchange/TWTB8U.html" target="_blank" data-en="/en/page/trading/exchange/TWTB8U.html" >變更股票面額恢復買賣參考價格</a></li>
+        </ul>
+      </li>
+      <li value="1400"><a href="/zh/page/announcement/punish.html" target="_blank" data-en="/en/page/announcement/punish.html" >公布處置有價證券</a></li>
+      <li class="f1" value="1100"><a href="/zh/page/announcement/notice.html" target="_blank" data-en="/en/page/announcement/notice.html" >公布注意有價證券</a></li>
+      <li><a href="/zh/page/announcement/notetrans.html" data-en="/en/page/announcement/notetrans.html" >公布注意累計次數異常資訊</a></li>
+      <li><a href="https://mops.twse.com.tw/mops/web/t05sr01_1" target="_blank" data-en="https://emops.twse.com.tw/server-java/t58query" >即時重大訊息</a></li>
+      <li class="f1 f2" value="800"><a href="/zh/page/announcement/publicForm.html" target="_blank" data-en="/en/page/announcement/publicForm.html" >公開申購公告</a></li>
+      <li class="f1 f2" value="600"><a href="/zh/page/announcement/auction.html" target="_blank" data-en="/en/page/announcement/auction.html" >競價拍賣公告</a></li>
+      <li><a href="/staticFiles/product/broker/Market Testing Schedule20210909(zh).doc" data-en="/staticFiles/product/broker/Market Testing Schedule20210909(en).doc" >市場會測公告</a></li>
+      <li><a href="/zh/page/announcement/BFZFZU_T.html" data-en="/en/page/announcement/BFZFZU_T.html" >投資理財節目異常推介個股</a></li>
+      <li><a href="/zh/page/announcement/BFZFZU_U.html" data-en="/en/page/announcement/BFZFZU_U.html" >特殊異常有價證券</a></li>
+      <li class="hide f2"><a href="/zh/page/announcement/LT185.html" target="_blank" data-en="/en/page/announcement/TDR.html" >上市普通股股數／TDR單位數增減公告</a></li>
+      <li><a href="/zh/page/announcement/BFIGTU.html" data-en="/en/page/announcement/BFIGTU.html" >違約公告專區</a></li>
+    </ul>
+  </li>
+  <li>
+    <a>法令規章</a>
+    <ul>
+      <li><a href="http://twse-regulation.twse.com.tw/" target="_blank" data-en="http://twse-regulation.twse.com.tw/EN/Index.aspx" >法規分享知識庫</a></li>
+      <li class="hide f2">
+        <a>規章修訂公告</a>
+        <ul>
+          <li><a href="/zh/law/news" data-en="/en/page/regulations/latest.html" >近期修訂資訊</a></li>
+          <li><a href="/zh/law/history" data-en="/en/page/regulations/Historical.html" >歷史修訂資訊</a></li>
+        </ul>
+      </li>
+      <li><a href="http://twse-regulation.twse.com.tw/TW/Categories/CLst.aspx?type=A" target="_blank" data-en="http://twse-regulation.twse.com.tw/EN/Categories/CLst.aspx?type=A" >基本法規</a></li>
+      <li><a href="http://twse-regulation.twse.com.tw/TW/Categories/Categories02.aspx" target="_blank" data-en="http://twse-regulation.twse.com.tw/EN/Categories/Categories02.aspx" >發行市場</a></li>
+      <li><a href="http://twse-regulation.twse.com.tw/TW/Categories/Categories03.aspx" target="_blank" data-en="http://twse-regulation.twse.com.tw/EN/Categories/Categories03.aspx" >交易市場</a></li>
+      <li><a href="http://twse-regulation.twse.com.tw/TW/Categories/Categories04.aspx" target="_blank" data-en="http://twse-regulation.twse.com.tw/EN/Categories/Categories04.aspx" >市場監理</a></li>
+      <li><a href="http://twse-regulation.twse.com.tw/TW/Categories/CLst.aspx?type=E" target="_blank" data-en="http://twse-regulation.twse.com.tw/EN/Categories/CLst.aspx?type=E" >資訊作業</a></li>
+      <li><a href="http://twse-regulation.twse.com.tw/TW/Categories/CLst.aspx?type=F" target="_blank" data-en="http://twse-regulation.twse.com.tw/EN/Categories/CLst.aspx?type=F" >公司治理</a></li>
+      <li><a href="http://www.selaw.com.tw" target="_blank" data-en="http://eng.selaw.com.tw/News.aspx#tab01 " >證券暨期貨法令判解查詢系統</a></li>
+    </ul>
+  </li>
+</ul>
+
+    </div>
+  </nav>
+  <div class="body">
+    <div class="wp">
+      <div class="content">
+        <aside id="sidebar"></aside>
+        <main id="main">
+          <div id="breadcrumbs"></div>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="main-form">
+  <div class="outer">
+    <h2>融資融券餘額</h2>
+    <div class="body">
+      <form class="main" method="post" >
+        查詢日期：<div id="d1"></div>
+        &nbsp;
+        分類項目：
+        <select name="selectType">
+          <option value="MS">信用交易統計</option>
+          <option value="ALL">全部</option>
+          <option value="0049">封閉式基金</option>
+          <option value="0099P">ETF</option>
+          <option value="9299">存託憑證</option>
+          <option value="STOCK">股票</option>
+          <option value="01">水泥工業</option>
+          <option value="02">食品工業</option>
+          <option value="03">塑膠工業</option>
+          <option value="04">紡織纖維</option>
+          <option value="05">電機機械</option>
+          <option value="06">電器電纜</option>
+          <option value="07">化學生技醫療</option>
+          <option value="21">化學工業</option>
+          <option value="22">生技醫療業</option>
+          <option value="08">玻璃陶瓷</option>
+          <option value="09">造紙工業</option>
+          <option value="10">鋼鐵工業</option>
+          <option value="11">橡膠工業</option>
+          <option value="12">汽車工業</option>
+          <option value="13">電子工業</option>
+          <option value="24">半導體業</option>
+          <option value="25">電腦及週邊設備業</option>
+          <option value="26">光電業</option>
+          <option value="27">通信網路業</option>
+          <option value="28">電子零組件業</option>
+          <option value="29">電子通路業</option>
+          <option value="30">資訊服務業</option>
+          <option value="31">其他電子業</option>
+          <option value="14">建材營造</option>
+          <option value="15">航運業</option>
+          <option value="16">觀光事業</option>
+          <option value="17">金融保險</option>
+          <option value="18">貿易百貨</option>
+          <option value="23">油電燃氣業</option>
+          <option value="19">綜合</option>
+          <option value="20">其他</option>
+        </select>
+        &nbsp;&nbsp; <a href="#" class="button search">查詢</a>
+      </form>
+      <div class="notes">
+        ※ 本資訊自民國90年01月01日起提供
+        <!--民國89年1月4日至89年12月31日資訊-->
+        <!--<a href="#" onclick="window.open('https://www.twse.com.tw/ch/ch/trading/exchange/MI_MARGN/MI_MARGN_oldtsec.php?input_date=89/01/04&amp;status=1','','toolbar=yes,location=no,menubar=yes,status=no,directories=no,resizable=yes,scrollbars=yes');">由此查詢</a>-->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="loading"></div>
+
+<div id="reports">
+
+  <div class="tools">
+    <a href="#" class="html" target="_blank" data-et="融資融券餘額">列印 / HTML</a>
+    <a href="#" class="csv" data-et="融資融券餘額">CSV 下載</a>
+  </div>
+    <!--- 總計 --->
+  <div id="tbl-credit" class="report-wrap">
+    <div id="creditTitle" class="title">
+      <h1></h1>
+      <div class="hints BFIHBU">&nbsp;</div>
+    </div>
+    <div id="table1" class="data-table">
+        <table id="credit-table" class="display cell-border compact order-column hover" width="100%"></table>
+    </div>
+    <div id="creditNotes" class="notes"></div>
+  </div>
+  <div id="tbl-generic" class="report-wrap">
+    <!--- 清單 --->
+    <div id="title" class="title">
+      <h1></h1>
+      <div class="hints">&nbsp;</div>
+    </div>
+    <div id="table2" class="data-table">
+        <table id="report-table" class="display cell-border compact order-column hover" width="100%"></table>
+    </div>
+    <div id="notes" class="notes"></div>
+  </div>
+</div>
+
+<div id="result-message"></div>
+
+
+
+
+
+
+  
+
+
+
+        </main>
+      </div>
+    </div>
+  </div>
+  
+  <footer id="footer">
+    <div class="wp">
+      
+      <ul class="social">
+        <li><a target="_blank" class="fb" href="//www.facebook.com/TaiwanStockExchangeCorp/">Facebook</a></li>
+        
+        <li><a target="_blank" class="yt" href="//www.youtube.com/channel/UCb_JzqaWz4Dw1OScrDpGxrg">Youtube</a></li>
+        <li><a target="_blank" class="rss" href="/zh/page/terms/RSS.html">Rss</a></li>
+      </ul>
+
+      <div class="contect">地址：11049 台北市信義路五段7號3樓、9至12樓、19樓　電話︰(02)8101-3101　投資人服務中心專線︰(02)2792-8188</div>
+    
+      <ul class="terms">
+        <li><a href="//suggestionbox.twse.com.tw/swsfront35/index.aspx?Lang=zh-TW&amp;Fun=/SWSF/SWSF01014" target="_blank">聯絡我們</a></li>
+        <li><a href="/zh/company/subscribe">訂閱電子報</a></li>
+        
+        <li><a href="/zh/page/navigation/sitemap.html">網站地圖</a></li>
+        <li><a href="/zh/page/terms/use.html">使用條款</a></li>
+        <li><a href="/zh/page/terms/policies-privacy.html">隱私權保護說明</a></li>
+        <li><a href="/zh/page/terms/PersonalDataProtectionPolicy.html">個人資料管理政策聲明</a></li>
+        <li><a href="/zh/page/terms/security.html">資訊安全政策</a></li>
+		<li><a href="/zh/page/terms/BCMS.html">營運持續政策</a></li>
+		<li><a href="/zh/page/terms/Gender.html">性騷擾防治專區</a></li>
+      </ul>
+    
+      <div class="copyright"><a href="/zh/products/vendors">本公司簽約資訊公司</a>亦提供相關資訊</div>
+      <div class="copyright">Copyright © <span class="year">2019</span> Taiwan Stock Exchange Corporation. All rights reserved.</div>
+      <div class="hints">※ 本站建議最佳瀏覽條件：螢幕解析度 1920x1080 以上，瀏覽器為 Google Chrome、Safari、FireFox 或 Internet Explorer 10 以上。</div>
+    
+    </div>
+  </footer>
+
+  <div class="overlay"></div>
+
+</div>
+<a href="#" id="scroll-to-top">Top</a>
+<script src="/rsrc/js/main.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+  
+
+
+
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-5220600-7', 'auto');
+  ga('send', 'pageview');
+
+
+
+
+var _val = {
+  env: 'production', //
+  root: '', //
+  rsrc: '/rsrc/' //
+};
+
+</script>
+
+<script src="/rsrc/lib/table/jquery.dataTables.min.js" type="text/javascript"></script>
+<script src="/rsrc/js/report.js?d=0626" type="text/javascript"></script>
+<script type="text/javascript">
+var API = '/exchangeReport/MI_MARGN';
+var BFIHBU_API = '/exchangeReport/BFIHBU';
+$(function(){
+bxds = bx.dateSelect;
+bxds.language = 'zh';
+bxds.yearStart = 2001;
+bxds.yearEnd = 0;
+bxds.init('d1');
+$('#d1').addClass('ymd');
+tableRender();
+$('form.main .button.search').on('click',function(){
+if(typeof(_gaq) != "undefined")
+_gaq.push(['_trackEvent',$('#main-form h2:first').text(),$(this).val()]);
+var selectType = $('select[name="selectType"]').val();//分類項目
+tableRender(bxds.get('d1'),selectType);
+return false;
+});
+});
+function tableRender(strDate,selectType) {
+$('#loading').show();
+$('#reports, #tbl-credit, #tbl-generic').hide();
+var tblIdList = ['#credit-table','#report-table'];
+$.each(tblIdList, function(idx, tblId) {
+if ( $.fn.DataTable.isDataTable( tblId) ) {
+$(tblId).DataTable().destroy();
+}
+$(tblId).empty();
+});
+$('#creditTitle>h1').empty();
+$('#creditNotes').empty().hide();
+$('#title>h1').empty();
+$('#notes').empty().hide();
+if(typeof(strDate)=='undefined') strDate = '';
+if(typeof(selectType)=='undefined') selectType = '';
+$.getJSON(API+'?response=json&date='+strDate+'&selectType='+selectType, function(J) {
+if(J.stat == 'OK') {
+if(/^(\d{4})(\d{2})(\d{2})$/.test(J.date))
+bxds.set('d1', new Date(parseInt(RegExp.$1,10),parseInt(RegExp.$2,10)-1,parseInt(RegExp.$3,10)));
+cherkBFIHBU(J.date, J.date);
+$('select[name="selectType"]').val(J.selectType);//分類項目
+if(J.creditTitle != null && J.creditTitle.length > 0) $('#creditTitle>h1').text(J.creditTitle);
+$('#title>h1').text(J.title);
+if('creditNotes' in J && J.creditNotes.length > 0) {
+var i, html = '<b>說明：</b><ol>';
+for (i=0;i<J.creditNotes.length;i++) html += '<li>'+(J.creditNotes[i].replace(/\n/g,'<br>'))+'</li>';
+html += '</ol>';
+$('#creditNotes').html(html).show();
+}
+if('notes' in J && J.notes.length > 0) {
+var i, html = '<b>說明：</b><ol>';
+for (i=0;i<J.notes.length;i++) html += '<li>'+(J.notes[i].replace(/\n/g,'<br>'))+'</li>';
+html += '</ol>';
+$('#notes').html(html).show();
+}
+$('#reports a.html').attr('href',API+'?response=html&date='+J.date+'&selectType='+J.selectType);
+$('#reports a.csv').attr('href',API+'?response=csv&date='+J.date+'&selectType='+J.selectType);
+var aligns = [
+['center','center','center','center','center',
+'center','center','center','center','center',
+'center','center','center','center','center',
+'center'],
+['center','center','right','right','right',
+'right','right','right','right','right',
+'right','right','right','right','center',
+'center']
+];
+var creditAligns = [
+['center','center','center','center','center','center'],
+['center','right','right','right','right','right']
+];
+if(J.creditFields.length>0) {
+var tblCredit = $('#credit-table').DataTable({lengthMenu: [ [10, 25, 50, 100, -1], [10, 25, 50, 100,"全部"] ],aaSorting: [],
+fixedHeader: true,
+language: {url:_app.rsrc+'/lib/table/zh.json'},
+paging:   false,
+ordering: true,
+info:     false,
+searching: false,
+destroy: true,
+columns: dateTableColumns(J.creditFields,creditAligns),
+data: J.creditList
+});
+}
+if(J.fields.length>0) {
+var tbl = $('#report-table')
+.TableHead(J.fields,J.groups)
+.DataTable({lengthMenu: [ [10, 25, 50, 100, -1], [10, 25, 50, 100,"全部"] ],
+aaSorting: [],
+fixedHeader: true,
+language: {url:_app.rsrc+'/lib/table/zh.json'},
+paging:   true,
+ordering: true,
+info:     false,
+searching: false,
+destroy: true,
+columns: dateTableColumns(J.fields,aligns),
+data: J.data,
+pagingType: "simple_numbers"
+});
+}
+$('#loading').hide();
+$('#reports').show();
+if(J.creditFields.length>0) {
+$("#tbl-credit").show();
+}
+if(J.fields.length>0) {
+$("#tbl-generic").show();
+}
+} else {
+cherkBFIHBU('', '');
+$('#reports').hide();
+$('#loading').css('display','none');
+$('#result-message').text(J.stat).show();
+}
+});
+}
+function cherkBFIHBU(startDate, endDate) {
+$.getJSON(BFIHBU_API+'?response=json&startDate='+startDate+'&endDate='+endDate, function(J) {
+if(J.stat == 'OK') {
+/^(\d{4})(\d{2})(\d{2})$/.test(J.params.startDate);
+var notes1 = "&nbsp;";
+var notes2 = "<br><font color='red'><b>" + (parseInt(RegExp.$1,10) - 1911) + "年" + parseInt(RegExp.$2,10) + "月" + parseInt(RegExp.$3,10) + "日臨時新增變更交易有價證券 <a href='/zh/page/trading/exchange/BFIHBU.html?date=" + J.params.startDate + "' target='_blank'>明細查詢</a></b></font>";
+if (J.data.length > 0) {
+$(".BFIHBU").html(notes2);
+} else {
+$(".BFIHBU").html(notes1);
+}
+}
+});
+}
+</script>
+
+
+</body>
+</html>
